@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cq/Desktop/esp-test/test
+# Install script for directory: E:/git-workspace/esp32c3-learn/esp32c3-learn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/cq/Desktop/esp-test/test/build/esp-idf/cmake_install.cmake")
+  include("E:/git-workspace/esp32c3-learn/esp32c3-learn/build/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -57,6 +57,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/cq/Desktop/esp-test/test/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

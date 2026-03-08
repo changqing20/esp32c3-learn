@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/cq/Desktop/esp-test/test/main
+# Install script for directory: E:/git-workspace/esp32c3-learn/esp32c3-learn/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

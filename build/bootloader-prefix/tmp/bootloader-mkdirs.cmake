@@ -10,18 +10,18 @@ if(NOT EXISTS "E:/App/Espressif/frameworks/esp-idf-v5.5.3/components/bootloader/
   file(MAKE_DIRECTORY "E:/App/Espressif/frameworks/esp-idf-v5.5.3/components/bootloader/subproject")
 endif()
 file(MAKE_DIRECTORY
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader"
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix"
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/tmp"
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/src/bootloader-stamp"
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/src"
-  "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/src/bootloader-stamp"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/tmp"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/src/bootloader-stamp"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/src"
+  "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/src/bootloader-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
+    file(MAKE_DIRECTORY "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/src/bootloader-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "C:/Users/cq/Desktop/esp-test/test/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "E:/git-workspace/esp32c3-learn/esp32c3-learn/build/bootloader-prefix/src/bootloader-stamp${cfgdir}") # cfgdir has leading slash
 endif()
