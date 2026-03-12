@@ -1,0 +1,11 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "idf: launch openocd",
+      "type": "shell",
+      "command": "idf.py openocd",
+      "problemMatcher": []
+    }
+  ]
+}

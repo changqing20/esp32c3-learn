@@ -1,5 +1,8 @@
 {
     "idf.currentSetup": "E:/App/Espressif/frameworks/esp-idf-v5.5.3/",
     "idf.portWin": "COM9",
-    "idf.flashType": "JTAG"
+    "idf.flashType": "JTAG",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-builtin.cfg"
+    ]
 }
